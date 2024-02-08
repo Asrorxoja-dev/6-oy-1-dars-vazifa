@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+  
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  color:aliceblue;
+  background-color:#1d1f24;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9{
+  border: 1px solid rgb(174, 172, 172);
+  border-radius: 10px;
+  width: 320px;
+  padding: 10px;
+  gap: 10px;
+  background-color: rgb(196, 198, 201);
+  margin-left: 80px;
+  margin-bottom: 20px;
+ transition: width 2s;
+  cursor: pointer;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(25, 23, 23);
+}
